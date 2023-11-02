@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 if __name__ == "__main":
+    """print all hidden directories"""
     import hidden_4
 
     for i in dir(hidden_4):
