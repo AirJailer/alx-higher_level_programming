@@ -1,4 +1,5 @@
 #!/usr/bin/python3
 def update_dictionary(a_dictionary, key, value):
-    a_dictionary[key] = value
-    return a_dictionary
+    updated_dict = a_dictionary.copy()
+    updated_dict[key] = value
+    return updated_dict
